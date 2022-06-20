@@ -1,0 +1,28 @@
+body {
+    font: 10pt verdana, arial;
+}
+
+.capaFlotante {
+    width: 339px;
+    position: absolute;
+    top: 100px;
+    left: 180px;
+    display: none;
+}
+
+.cArriba {
+    width: 339px;
+    height: 15px;
+    background: transparent url(./images/arriba.png) no-repeat;
+}
+
+.cAbajo {
+    width: 339px;
+    height: 15px;
+    background: transparent url(./images/abajo.png) no-repeat;
+}
+
+.cMedio {
+    background: transparent url(./images/medio.png) repeat-y;
+    padding: 4px 19px;
+}
